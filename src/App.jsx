@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Interface from './components/layout/interface/Interface.jsx'
+import Interface from './components/layout/interface'
 
 function App() {
   const [count, setCount] = useState(0)
