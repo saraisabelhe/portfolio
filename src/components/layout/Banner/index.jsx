@@ -1,8 +1,10 @@
+import styles from './styles.module.css';
+
 function Banner() {
     return (
 
-        <div>
-        banner aqui
+        <div className={styles.conteiner_banner}>
+        <p>banner aqui</p>
         </div>
 
     )
