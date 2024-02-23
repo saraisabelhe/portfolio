@@ -1,8 +1,21 @@
 .conteiner_banner {
-    margin: auto;
-    background-color: black;
-    width: 90%;
-    padding: 20% 0% ;
     display: flex;
+    align-items: center;
+    border-style: solid;
+    justify-content: space-around;
+    background-color: rgb(108, 224, 108);
+    
 
 } 
+.conteiner_banner img {
+    border-style: solid;
+    
+
+}
+
+.conteiner_banner h1 {
+    border-style: solid;
+    
+    
+   
+}
