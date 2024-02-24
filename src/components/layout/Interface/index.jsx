@@ -1,5 +1,4 @@
-import Banner from '../Banner/index'
-
+import Banner from '../Banner'
 function Interface() {
     return (
         <div>

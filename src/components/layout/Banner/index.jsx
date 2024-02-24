@@ -6,7 +6,7 @@ function Banner() {
 
         <div className={styles.conteiner_banner}>
         <h1>Ola, Bem vindo</h1>
-        <img src={Img} alt="" />
+        <picture><img src={Img} alt="" /></picture>
         </div>
 
     )

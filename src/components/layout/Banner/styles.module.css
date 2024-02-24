@@ -9,12 +9,14 @@
 } 
 .conteiner_banner img {
     border-style: solid;
+    width: 100%;
     
 
 }
 
 .conteiner_banner h1 {
     border-style: solid;
+   
     
     
    
