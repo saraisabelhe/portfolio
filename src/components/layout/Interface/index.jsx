@@ -5,9 +5,9 @@ function Interface() {
     return (
         <div>
             
-            <Navbar/>
+            <Banner/>
             
-            
+               
         </div>
     ) 
 }
