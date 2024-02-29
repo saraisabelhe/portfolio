@@ -13,7 +13,7 @@ function Conteudo () {
             <div>
                 <h1>SKILLS</h1>
             </div>
-            <div>
+            <div className={styles.conteiner_icons}>
                 <div><img src={ImgHtml} alt="" /></div>
                 <div><img src={ImgCss} alt="" /></div>
                 <div><img src={ImgJs} alt="" /></div>

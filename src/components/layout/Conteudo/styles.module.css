@@ -1,7 +1,13 @@
 .conteiner {
     background-color: #212222;
-}
 
+}
+.conteiner_icons {
+    display: flex;
+    justify-content: space-around;
+    
+}
 .conteiner h1 {
     color: white;
+    text-align: center;
 }
