@@ -10,11 +10,16 @@ import styles from './styles.module.css'
 function Conteudo () {
     return (
         <div className={styles.conteiner}>
-            <div><img src={ImgHtml} alt="" /></div>
-            <div><img src={ImgCss} alt="" /></div>
-            <div><img src={ImgJs} alt="" /></div>
-            <div><img src={ImgGithub} alt="" /></div>
-            <div><img src={ImgGit} alt="" /></div>
+            <div>
+                <h1>SKILLS</h1>
+            </div>
+            <div>
+                <div><img src={ImgHtml} alt="" /></div>
+                <div><img src={ImgCss} alt="" /></div>
+                <div><img src={ImgJs} alt="" /></div>
+                <div><img src={ImgGithub} alt="" /></div>
+                <div><img src={ImgGit} alt="" /></div>
+            </div>
         </div>
     )
 }

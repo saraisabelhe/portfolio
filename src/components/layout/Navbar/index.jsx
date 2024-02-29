@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom'
 
 import styles from './styles.module.css'
-import Img from '../../../assets/logo4.png'
+import Img from '../../../assets/logo5.png'
 
 
 function Navbar() {
