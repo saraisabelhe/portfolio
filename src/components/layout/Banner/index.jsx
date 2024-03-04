@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import Img from '../../../assets/banner2.png'
-import Imgbanner from '../../../assets/bannerfundo.jpg'
+
 
 function Banner() {
     return (

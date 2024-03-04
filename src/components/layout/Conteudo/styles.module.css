@@ -1,13 +1,32 @@
 .conteiner {
     background-color: #212222;
+    border-color: black;
+    
 
 }
 .conteiner_icons {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10vh;
     
 }
 .conteiner h1 {
     color: white;
     text-align: center;
+    
+}
+
+.conteiner_item {
+   padding: 20px;
+
+    
+}
+.conteiner_item h3 {
+    margin: 0;
+    text-align: center;
+}
+.conteiner_item img {
+    max-width: 100%;
+    max-height: 100%;
 }
