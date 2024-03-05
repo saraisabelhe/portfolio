@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 import Img from '../../../assets/logo5.png'
 
 
-function Navbar() {
+function Navbar( {scrollComponenteB} ) {
     return (
         <div className={styles.conteiner_header}>
             <header>
@@ -17,6 +17,7 @@ function Navbar() {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
+                        <li><Link onClick={scrollComponenteB}>Sobre</Link></li>
                     </ul>
                 </nav>
             </header>
