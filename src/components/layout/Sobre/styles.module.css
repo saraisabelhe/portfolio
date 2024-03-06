@@ -1,0 +1,10 @@
+.conteiner {
+    background-color: aqua;
+    height: 50vh;
+    display: flex;
+}
+.conteiner_filho {
+    width: 50%;
+    border-style: solid;
+    
+}
