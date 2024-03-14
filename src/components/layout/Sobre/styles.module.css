@@ -1,10 +1,29 @@
 .conteiner {
     background-color: aqua;
-    height: 50vh;
+  
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+
+    
+    
 }
 .conteiner_filho {
-    width: 50%;
+    flex: 1;
     border-style: solid;
+    margin: 0;
+    padding: 20px;
+    
+    
+}
+.conteiner_filho h3 {
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    -webkit-line-clamp: 1;
+    
+    
     
 }
