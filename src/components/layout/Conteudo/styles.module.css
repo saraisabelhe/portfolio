@@ -11,14 +11,18 @@
     flex-wrap: wrap;
     padding: 10vh;
     
+    
+    
 }
 .conteiner h1 {
     color: white;
     text-align: center;
+   
     
 }
 
 .conteiner_item {
+
    padding: 20px;
 
     
