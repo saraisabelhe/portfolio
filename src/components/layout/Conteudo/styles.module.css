@@ -1,6 +1,10 @@
 .conteiner {
     background-color: #212222;
     border-color: black;
+    min-width: 200px;
+    max-width: 2300px;
+    width: 100%;
+    
     
 
 
@@ -9,27 +13,32 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 10vh;
+    padding: 10vw;
+    
     
     
     
 }
 .conteiner h1 {
-    color: white;
+    color: #A1AF9F;
     text-align: center;
    
     
 }
 
 .conteiner_item {
-
+    
    padding: 20px;
+   box-shadow: 10px 5px 5px black;
+  
 
+   
     
 }
 .conteiner_item h3 {
     margin: 0;
     text-align: center;
+    color: #A1AF9F;
 }
 .conteiner_item img {
     max-width: 100%;

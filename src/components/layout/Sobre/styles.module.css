@@ -1,5 +1,5 @@
 .conteiner {
-    background-color: aqua;
+    background-color: #009BFF;
   
     display: flex;
     flex-wrap: wrap;
@@ -11,8 +11,6 @@
 .conteiner_texto {
     border-style: solid;
     margin: auto;
-   
-    
     
 }
 .conteiner_texto h3 {
@@ -27,6 +25,7 @@
     border-style:solid ;
     width: 300px;
     height: 300px;
+
 }
 .conteiner_img img {
     width: 100%;
