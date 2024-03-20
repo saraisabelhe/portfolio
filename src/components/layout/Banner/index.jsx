@@ -7,7 +7,7 @@ function Banner() {
 
         <div className={styles.conteiner_banner}>
             <div className={styles.conteiner_titulo}>
-                <h1>Ola, Seja Bem-vindo.</h1>
+                <h1>Ola, Bem-vindo.</h1>
                 <h3>Sou Vitor França, WebDesigner</h3>
             </div>
             <picture>

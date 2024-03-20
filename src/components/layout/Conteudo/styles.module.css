@@ -1,9 +1,7 @@
 .conteiner {
     background-color: #212222;
     border-color: black;
-    min-width: 200px;
-    max-width: 2300px;
-    width: 100%;
+    margin-top: 30px;
     
     
 
@@ -22,6 +20,7 @@
 .conteiner h1 {
     color: #A1AF9F;
     text-align: center;
+    padding-top: 30px;
    
     
 }

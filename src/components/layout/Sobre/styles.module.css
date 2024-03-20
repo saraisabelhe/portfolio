@@ -1,16 +1,16 @@
 .conteiner {
     background-color: #009BFF;
-  
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    border-style: solid;
+    margin: 0;
+    padding: 9rem 0 2rem;
     
 }
 .conteiner_texto {
     border-style: solid;
-    margin: auto;
+    
     
 }
 .conteiner_texto h3 {
