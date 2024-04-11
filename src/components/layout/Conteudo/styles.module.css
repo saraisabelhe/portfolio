@@ -2,6 +2,7 @@
     background-color: #212222;
     border-color: black;
     margin-top: 30px;
+    padding: 4rem 0;
     
     
 
@@ -20,7 +21,7 @@
 .conteiner h1 {
     color: #A1AF9F;
     text-align: center;
-    padding-top: 30px;
+    
    
     
 }
