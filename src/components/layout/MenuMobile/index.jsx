@@ -1,32 +1,31 @@
 import './styles.module.css';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
+import { Link } from 'react-router-dom'
 
-function MenuMobile() {
+function MenuMobile( {scrollComponenteB} ) {
 
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
-        setIssOpen(!isOpen);
+        setIsOpen(!isOpen);
     };
 
     return (
         <div className='Hamburguer-menu'>
-            <button onClick={toggleMenu}>
+            <button className="hamburger-icon" onClick={toggleMenu}>
                 <AiOutlineMenu/>
             </button>
             {isOpen && (
-                    <nav>
-                        <ul>
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/about">About</Link></li>
-                            <li><Link to="/contact">Contact</Link></li>
-                            <li><Link onClick={scrollComponenteB}>Sobre</Link></li>
-                        </ul>
-                    </nav>
-                        )
-            }
-
+                <nav className="menu">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li><a href='' onClick={scrollComponenteB} >Sobre</a></li>
+                    </ul>
+                </nav>
+            )}
         </div>
     )
 }

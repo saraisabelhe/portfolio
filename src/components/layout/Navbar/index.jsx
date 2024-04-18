@@ -6,6 +6,7 @@ import Img from '../../../assets/logo5.png'
 
 
 function Navbar( {scrollComponenteB} ) {
+    
     return (
         <div className={styles.conteiner_header}>
             <header>
