@@ -4,7 +4,9 @@ import About from '../About'
 import Sobre from '../../layout/Sobre'
 import React, { useRef } from 'react'
 
+
 function Home() {
+    
     const componenteBRef = useRef(null);
     
     const scrollComponenteB = () => {
@@ -13,6 +15,7 @@ function Home() {
     };
     return (
         <div>
+
             <Navbar scrollComponenteB={scrollComponenteB} />
             <Interface/>
             <Sobre scrollRef={componenteBRef}/>

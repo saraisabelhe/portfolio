@@ -3,9 +3,15 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 
+
+
+
 function AppRoutes() {
 
+    
+
     return (
+ 
         <Router>
             <Routes>
                 <Route path="/" element={<Home/>} />
@@ -13,6 +19,7 @@ function AppRoutes() {
                 <Route path="/contact" element={<Contact/>}/>
             </Routes>
         </Router>
+        
     )
 }
 

@@ -5,11 +5,15 @@ import './App.css'
 import Navbar from './components/layout/Navbar'
 import Interface from './components/layout/Interface'
 import AppRoutes from './routes.jsx'
+import MenuMobile from './components/layout/MenuMobile/index.jsx'
 
 function App() {
 
+  
+    
   return (
     <>
+    <MenuMobile/>
     <AppRoutes/>
     
     </>
