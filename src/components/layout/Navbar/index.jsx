@@ -22,20 +22,20 @@ function Navbar( {scrollComponenteB} ) {
                 <div className={styles.conteiner_logo}>
                     <img src={Img} alt="" />
                 </div>
-                <div className='Hamburguer-menu'>
-            <button className="hamburger-icon" onClick={toggleMenu}>
-                <AiOutlineMenu/>
-            </button>
-            {isOpen && (
-                <nav className="menu">
-                    <ul>
-                    <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                        <li><Link onClick={scrollComponenteB}>Sobre</Link></li>
-                    </ul>
-                </nav>
-            )}
+            <div className='Hamburguer-menu'>
+                <button className="hamburger-icon" onClick={toggleMenu}>
+                    <AiOutlineMenu/>
+                </button>
+                    {isOpen && (
+                        <nav className="menu">
+                            <ul>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                                <li><Link to="/contact">Contact</Link></li>
+                                <li><Link onClick={scrollComponenteB}>Sobre</Link></li>
+                            </ul>
+                        </nav>
+                    )}
         </div>
                 <nav>
                     <ul>
