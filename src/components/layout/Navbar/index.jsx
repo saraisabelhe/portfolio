@@ -18,7 +18,7 @@ function Navbar( {scrollComponenteB} ) {
     
     return (
         <div className={styles.conteiner_header}>
-            <header>
+            <header >
                 <div className={styles.conteiner_logo}>
                     <img src={Img} alt="" />
                 </div>
@@ -36,7 +36,7 @@ function Navbar( {scrollComponenteB} ) {
                             </ul>
                         </nav>
                     )}
-        </div>
+            </div>
                 <nav>
                     <ul>
                         <li><Link to="/">Home</Link></li>
