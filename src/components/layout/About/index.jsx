@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 import img from '../../../assets/imgsobre.png'
 
 
-function Sobre( { scrollRef }) {
+function About( { scrollRef }) {
     return ( 
     <div ref={scrollRef} className={styles.conteiner}>
         <div className={styles.conteiner_texto}>
@@ -21,4 +21,4 @@ function Sobre( { scrollRef }) {
 )
 }
 
-export default Sobre;
+export default About;

@@ -8,7 +8,7 @@ import ImgReact from '../../../assets/react1.png'
 import styles from './styles.module.css'
 
 
-function Conteudo () {
+function Skills () {
     return (
         <div className={styles.conteiner}>
             <div>
@@ -26,4 +26,4 @@ function Conteudo () {
     )
 }
 
-export default Conteudo
+export default Skills

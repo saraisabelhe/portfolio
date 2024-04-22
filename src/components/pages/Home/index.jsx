@@ -1,9 +1,9 @@
-import Interface from '../../layout/Interface'
-import Navbar from '../../layout/Navbar'
-import About from '../About'
-import Sobre from '../../layout/Sobre'
-import React, { useRef } from 'react'
+import React, { useRef } from 'react';
 
+import Banner from '../../layout/Banner';
+import Skills from '../../layout/Skills';
+import Navbar from '../../layout/Navbar';
+import Sobre from '../../layout/About';
 
 function Home() {
     
@@ -17,7 +17,8 @@ function Home() {
         <div>
 
             <Navbar scrollComponenteB={scrollComponenteB} />
-            <Interface/>
+            <Banner/>
+            <Skills/>
             <Sobre scrollRef={componenteBRef}/>
         </div>
     )
