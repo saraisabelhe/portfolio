@@ -1,32 +1,15 @@
-.conteiner_header { 
+.conteiner { 
     /* background-color: rgb(19, 17, 17); */
-    background-color: black;
+    background-color: black;     
+
     
-    
 }
-.conteiner_header header {
-    display: flex;
-    
-      
+
+.conteiner_header {
+    display: flex;   
 }
-.conteiner_header nav {
-    flex-grow: 2;
-    align-self: center;
-}
-.conteiner_header ul {
-    
-    display: flex;
-    margin: 0;
-    justify-content: space-around;
-}
-.conteiner_header li {
-    list-style-type: none;
-    margin: 0;
-}
-.conteiner_header li a {
-  text-decoration: none;
-  color: rgb(108, 224, 108);
-}
+
+/* logo */
 .conteiner_logo img {
     margin: auto;
     max-width: 100%;
@@ -40,32 +23,89 @@
     
 }
 /*hamburguer*/
-.hamburger-menu {
-    position: relative;
-  }
+.hamburguer_menu {
+  display: flex;
+  margin: 0 50px;
+    
+    
+    
+}
   
-  .hamburger-icon {
+.hamburguer_icon {
     background-color: transparent;
+    color: green;
     border: none;
     cursor: pointer;
-  }
+    display: none;
+    align-items: center;
+}
   
-  .menu {
+.hamburguer_menu nav {
     position: absolute;
-    top: 50px; /* Ajuste conforme necessário */
+    top: 70px; /* Ajuste conforme necessário */
     right: 0;
     background-color: #f8f9fa;
     border: 1px solid #ced4da;
     border-radius: 4px;
     padding: 10px;
-    z-index: 1000;
-  }
+    
+    
+   
+}
   
-  .menu ul {
+.hamburguer_menu ul {
     list-style-type: none;
     padding: 0;
-  }
+    
+    
+}
   
-  .menu li {
+.hamburguer_menu li {
     padding: 5px 0;
+    
+}
+.hamburguer_menu li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: green;
+  
+  
+}
+  /* menu principal */
+
+.menu_principal {
+    
+    display: flex;
+    flex-grow: 2;
+}
+.menu_principal nav {
+    
+    flex-grow: 1;
+    align-self: center;
+}
+.menu_principal ul {
+    
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+}
+.menu_principal li {
+    
+    list-style-type: none;
+    margin: 0;
+}
+.menu_principal li a {
+    
+    text-decoration: none;
+    color: rgb(108, 224, 108);
+}
+/* medias querys */
+@media screen and (max-width: 800px) {
+
+  .hamburguer_icon {
+    display: flex;
   }
+  .menu_principal {
+    display: none;
+  }
+}

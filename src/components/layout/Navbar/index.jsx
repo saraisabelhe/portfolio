@@ -17,17 +17,17 @@ function Navbar( {scrollComponenteB} ) {
     };
     
     return (
-        <div className={styles.conteiner_header}>
-            <header >
+        <div className={styles.conteiner}>
+            <header className={styles.conteiner_header}>
                 <div className={styles.conteiner_logo}>
                     <img src={Img} alt="" />
                 </div>
-            <div className='Hamburguer-menu'>
-                <button className="hamburger-icon" onClick={toggleMenu}>
-                    <AiOutlineMenu/>
-                </button>
+                <div className={styles.hamburguer_menu}>
+                    <button className={styles.hamburguer_icon} onClick={toggleMenu}>
+                        <AiOutlineMenu size={25}/>
+                    </button>
                     {isOpen && (
-                        <nav className="menu">
+                        <nav >
                             <ul>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About</Link></li>
@@ -36,15 +36,17 @@ function Navbar( {scrollComponenteB} ) {
                             </ul>
                         </nav>
                     )}
-            </div>
-                <nav>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                        <li><Link onClick={scrollComponenteB}>Sobre</Link></li>
-                    </ul>
-                </nav>
+                </div>
+                <div className={styles.menu_principal}>
+                    <nav>
+                        <ul>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                            <li><Link onClick={scrollComponenteB}>Sobre</Link></li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
         
         </div>
