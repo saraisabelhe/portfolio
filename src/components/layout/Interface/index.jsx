@@ -1,6 +1,6 @@
 import Banner from '../Banner'
 import Navbar from '../Navbar'
-import Conteudo from '../Conteudo'
+import Conteudo from '../Skills'
 import styles from './styles.module.css'
 
 function Interface() {

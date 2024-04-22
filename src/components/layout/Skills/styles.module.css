@@ -1,8 +1,10 @@
 .conteiner {
     background-color: #212222;
-    border-color: black;
     margin-top: 30px;
     padding: 4rem 0;
+    box-sizing: border-box;
+    /* box-shadow: 4px 4px 6px 4px #212222 */
+    
     
     
 
@@ -29,12 +31,23 @@
 .conteiner_item {
     
    padding: 20px;
-   box-shadow: 10px 5px 5px black;
+   box-shadow: 4px 4px 6px 4px black;
+   margin: 10px 10px 10px 0;
   
 
    
     
 }
+.conteiner_item:hover {
+    
+    
+    box-shadow: 2px 2px 3px 2px black;
+    
+   
+ 
+    
+     
+ }
 .conteiner_item h3 {
     margin: 0;
     text-align: center;
