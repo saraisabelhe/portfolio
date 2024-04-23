@@ -8,7 +8,7 @@ import Img from '../../../assets/logo5.png'
 
 
 
-function Navbar( {scrollComponenteB} ) {
+function Navbar( {scrollComponenteAbout, scrollComponenteSkill} ) {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -30,8 +30,8 @@ function Navbar( {scrollComponenteB} ) {
                         <nav >
                             <ul>
                                 <li><Link to="/">Home</Link></li>
-                                <li><Link to="/contact">Contact</Link></li>
-                                <li><Link onClick={scrollComponenteB}>About</Link></li>
+                                <li><Link onClick={scrollComponenteSkill}>Skill</Link></li>
+                                <li><Link onClick={scrollComponenteAbout}>About</Link></li>
                             </ul>
                         </nav>
                     )}
@@ -40,8 +40,8 @@ function Navbar( {scrollComponenteB} ) {
                     <nav>
                         <ul>
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/contact">Contact</Link></li>
-                            <li><Link onClick={scrollComponenteB}>About</Link></li>
+                            <li><Link onClick={scrollComponenteSkill}>Skill</Link></li>
+                            <li><Link onClick={scrollComponenteAbout}>About</Link></li>
                         </ul>
                     </nav>
                 </div>

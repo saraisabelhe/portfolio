@@ -3,23 +3,33 @@ import React, { useRef } from 'react';
 import Banner from '../../layout/Banner';
 import Skills from '../../layout/Skills';
 import Navbar from '../../layout/Navbar';
-import Sobre from '../../layout/About';
+import About from '../../layout/About';
+import Footer from '../../layout/Footer';
 
 function Home() {
     
-    const componenteBRef = useRef(null);
-    
-    const scrollComponenteB = () => {
+    const componenteAboutRef = useRef(null);
+    const componenteSkillRef = useRef(null);
 
-        componenteBRef.current.scrollIntoView({ behavior: 'smooth' });
+    const scrollAbout = () => {
+
+        componenteAboutRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+    const scrollSkill = () => {
+        
+        componenteSkillRef.current.scrollIntoView({ behavior: 'smooth' });
     };
     return (
         <div>
 
-            <Navbar scrollComponenteB={scrollComponenteB} />
+            <Navbar 
+                scrollComponenteAbout={ scrollAbout } 
+                scrollComponenteSkill={ scrollSkill }
+            />
             <Banner/>
-            <Skills/>
-            <Sobre scrollRef={componenteBRef}/>
+            <Skills scrollRef={componenteSkillRef}/>
+            <About scrollRef={componenteAboutRef}/>
+            <Footer/>
         </div>
     )
 }

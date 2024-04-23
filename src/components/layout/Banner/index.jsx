@@ -9,6 +9,7 @@ function Banner() {
             <div className={styles.conteiner_titulo}>
                 <h1>Ola, Bem-vindo.</h1>
                 <h3>Sou Vitor França, WebDesigner</h3>
+                <button>Contato</button>
             </div>
             <picture>
                 <img src={Img} alt="" />

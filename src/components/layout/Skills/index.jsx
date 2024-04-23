@@ -8,9 +8,9 @@ import ImgReact from '../../../assets/react1.png'
 import styles from './styles.module.css'
 
 
-function Skills () {
+function Skills ( { scrollRef }) {
     return (
-        <div className={styles.conteiner}>
+        <div ref={scrollRef} className={styles.conteiner}>
             <div>
                 <h1>SKILLS</h1>
             </div>
