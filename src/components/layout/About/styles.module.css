@@ -4,15 +4,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 4rem 0 
+    padding: 6rem 0 6rem; 
     
     
 }
-.conteiner_texto {
-    
-    
-    
-}
+
 .conteiner_texto h1 {
     text-align: center;
     padding: 30px;

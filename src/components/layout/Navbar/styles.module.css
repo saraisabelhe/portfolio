@@ -23,8 +23,8 @@
 }
 .conteiner_logo {
     flex-grow: 1;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     
 }
 /*hamburguer*/
@@ -47,11 +47,12 @@
   
 .hamburguer_menu nav {
     position: absolute;
-    top: 100px; /* Ajuste conforme necessário */
+    top: 70px; /* Ajuste conforme necessário */
     right: 0;
-    background-color: #f8f9fa;
-    border: 1px solid #ced4da;
+    background-color: #f8f9fae7;
+    border: 1px solid #ced4dacc;
     border-radius: 4px;
+    width: 100%;
     padding: 40px;
     display: none;
     
@@ -68,6 +69,7 @@
   
 .hamburguer_menu li {
     padding: 5px 0;
+    text-align: center;
     
 }
 .hamburguer_menu li a {

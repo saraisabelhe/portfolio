@@ -25,6 +25,10 @@
     color: white;
     margin: 0px 10px 0 10px;
 }
+.icon a{
+    color: inherit;
+
+}
 .conteiner h3 {
     padding: 1rem 1rem;
     font-size: 15px;

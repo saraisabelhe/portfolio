@@ -12,7 +12,7 @@ function Skills ( { scrollRef }) {
     return (
         <div ref={scrollRef} className={styles.conteiner}>
             <div>
-                <h1>SKILLS</h1>
+                <h1 className={styles.conteiner_skill}>SKILLS</h1>
             </div>
             <div className={styles.conteiner_icons}>
                 <div className={styles.conteiner_item}><img src={ImgHtml} alt="" /><h3>HTML</h3></div>

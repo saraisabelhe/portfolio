@@ -9,4 +9,13 @@
     background-color: #efefef;
     
   }
+span {
+  color: rgb(108, 224, 108);
+}
+::-webkit-scrollbar {
+  width: 5px; 
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: rgb(108, 224, 108); 
+}

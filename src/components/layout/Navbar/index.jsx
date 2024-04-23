@@ -15,6 +15,9 @@ function Navbar( {scrollComponenteAbout, scrollComponenteSkill} ) {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    const closeMenu = () => {
+        setIsOpen(false); // Define o estado do menu hamburguer para fechado
+      };
     
     return (
         <div className={styles.conteiner}>
@@ -30,8 +33,8 @@ function Navbar( {scrollComponenteAbout, scrollComponenteSkill} ) {
                         <nav >
                             <ul>
                                 <li><Link to="/">Home</Link></li>
-                                <li><Link onClick={scrollComponenteSkill}>Skill</Link></li>
-                                <li><Link onClick={scrollComponenteAbout}>About</Link></li>
+                                <li><Link onClick={() => {scrollComponenteSkill(); closeMenu()}}>Skill</Link></li>
+                                <li><Link onClick={() => {scrollComponenteAbout(); closeMenu()}}>About</Link></li>
                             </ul>
                         </nav>
                     )}

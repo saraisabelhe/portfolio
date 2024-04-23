@@ -8,8 +8,10 @@ function Banner() {
         <div className={styles.conteiner_banner}>
             <div className={styles.conteiner_titulo}>
                 <h1>Ola, Bem-vindo.</h1>
-                <h3>Sou Vitor França, WebDesigner</h3>
-                <button>Contato</button>
+                <h3>Sou Vitor França, <span>Frontend.</span></h3>
+                <a href="mailto:vitusfranca@gmail.com">
+                    <button className={styles.contato}>Contato</button>
+                </a>
             </div>
             <picture>
                 <img src={Img} alt="" />

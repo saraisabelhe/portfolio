@@ -4,7 +4,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-size: cover;
-    padding: 15rem 0 2rem;
+    padding: 10rem 0 8rem;
     
     
 
@@ -41,5 +41,28 @@
     
     margin: 0;
 }
+.contato {
+    margin-top: 10px;
+    padding: 10px 40px;
+    border: 4px outset rgb(108, 224, 108);;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    
 
+    
+}
+.contato:hover {
+    background-color: #394F36;
+    color: white;
+    transform: translateY(2px);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+.contato a {
+    text-decoration: none;
+    color: inherit;
+}
 

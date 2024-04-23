@@ -1,6 +1,6 @@
 .conteiner {
     background-color: #212222;
-    padding: 8rem 0;
+    padding: 6rem 0 8rem;
 
     /* box-shadow: 4px 4px 6px 4px #212222 */
     
@@ -19,6 +19,7 @@
     
     
 }
+
 .conteiner h1 {
     color: #A1AF9F;
     text-align: center;
