@@ -1,6 +1,6 @@
 
-import './App.css'
-import AppRoutes from './routes.jsx'
+import './App.css';
+import AppRoutes from './routes.jsx';
 
 
 function App() {
@@ -9,9 +9,7 @@ function App() {
     
   return (
     <>
-    
     <AppRoutes/>
-    
     </>
   )
 }
