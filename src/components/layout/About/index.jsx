@@ -9,7 +9,7 @@ function About( { scrollRef }) {
             <h1>Introdução Sobre Mim</h1>
             <p>Olá! Sou Vitor França, um entusiasta da tecnologia 
                 <br/><br/>
-                desenvolvedor com experiência em FrontEnd. Fluente em javascript 
+                desenvolvedor com experiência em <span>FrontEnd.</span> Fluente em <span>javascript</span> 
                 <br/><br/>
                 Valorizo a colaboração, busco aprendizado contínuo e estou comprometido em causar impacto positivo. 
                 <br/><br/> 
