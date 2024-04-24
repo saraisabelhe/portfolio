@@ -1,9 +1,9 @@
 import ImgHtml from '../../../assets/html.png';
 import ImgCss from '../../../assets/css.png';
 import ImgJs from '../../../assets/javascript.png';
-import ImgGithub from '../../../assets/github1.png';
-import ImgGit from '../../../assets/git1.png';
-import ImgReact from '../../../assets/react1.png'
+import ImgGithub from '../../../assets/github.png';
+import ImgGit from '../../../assets/git.png';
+import ImgReact from '../../../assets/react.png'
 
 import styles from './styles.module.css'
 
