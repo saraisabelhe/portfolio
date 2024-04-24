@@ -2,12 +2,7 @@
     background-color: #212222;
     padding: 6rem 0 8rem;
 
-    /* box-shadow: 4px 4px 6px 4px #212222 */
     
-    
-    
-
-
 }
 .conteiner_icons {
     display: flex;
@@ -15,16 +10,12 @@
     flex-wrap: wrap;
     padding: 10vw;
     
-    
-    
-    
 }
 
 .conteiner h1 {
     color: #A1AF9F;
     text-align: center;
    
-    
 }
 
 .conteiner_item {
@@ -33,17 +24,11 @@
    box-shadow: 4px 4px 6px 4px black;
    margin: 10px 10px 10px 0;
   
-
-   
     
 }
-.conteiner_item:hover {
-    
+.conteiner_item:hover { 
     
     box-shadow: 2px 2px 3px 2px black;
-    
-   
- 
     
      
  }
@@ -53,10 +38,7 @@
     color: #A1AF9F;
     background-color: #00592F;
 }
-.conteiner_item img {
-    max-width: 100%;
-    max-height: 100%;
-}
+
 .icon {
     color: #00592F;
 }
