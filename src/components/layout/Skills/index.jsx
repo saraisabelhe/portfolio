@@ -1,9 +1,4 @@
-import ImgHtml from '../../../assets/html.png';
-import ImgCss from '../../../assets/css.png';
-import ImgJs from '../../../assets/javascript.png';
-import ImgGithub from '../../../assets/github.png';
-import ImgGit from '../../../assets/git.png';
-import ImgReact from '../../../assets/react.png';
+import { FaReact, FaCss3Alt, FaJsSquare, FaHtml5, FaGitSquare, FaGithubSquare  } from 'react-icons/fa';
 
 import styles from './styles.module.css';
 
@@ -15,12 +10,12 @@ function Skills ( { scrollRef }) {
                 <h1 className={styles.conteiner_skill}>SKILLS</h1>
             </div>
             <div className={styles.conteiner_icons}>
-                <div className={styles.conteiner_item}><img src={ImgHtml} alt="" /><h3>HTML</h3></div>
-                <div className={styles.conteiner_item}><img src={ImgCss} alt="" /><h3>CSS</h3></div>
-                <div className={styles.conteiner_item}><img src={ImgJs} alt="" /><h3>JS</h3></div>
-                <div className={styles.conteiner_item}><img src={ImgGithub} alt="" /><h3>GitHub</h3></div>
-                <div className={styles.conteiner_item}><img src={ImgGit} alt="" /><h3>Git</h3></div>
-                <div className={styles.conteiner_item}><img src={ImgReact} alt="" /><h3>React</h3></div>
+                <div className={styles.conteiner_item}><FaHtml5 className={styles.icon} size={80}/><h3>HTML</h3></div>
+                <div className={styles.conteiner_item}><FaCss3Alt className={styles.icon} size={80}/><h3>CSS</h3></div>
+                <div className={styles.conteiner_item}><FaJsSquare className={styles.icon} size={80}/><h3>JS</h3></div>
+                <div className={styles.conteiner_item}><FaGithubSquare className={styles.icon} size={80}/><h3>GitHub</h3></div>
+                <div className={styles.conteiner_item}><FaGitSquare className={styles.icon} size={80}/><h3>Git</h3></div>
+                <div className={styles.conteiner_item}><FaReact className={styles.icon} size={80}/><h3>React</h3></div>
             </div>
         </div>
     )
