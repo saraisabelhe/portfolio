@@ -1,5 +1,5 @@
-import styles from './styles.module.css'
-import img from '../../../assets/imgsobre.png'
+import styles from './styles.module.css';
+import img from '../../../assets/imgsobre.png';
 
 
 function About( { scrollRef }) {
