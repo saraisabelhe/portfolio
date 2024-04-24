@@ -3,9 +3,9 @@ import ImgCss from '../../../assets/css.png';
 import ImgJs from '../../../assets/javascript.png';
 import ImgGithub from '../../../assets/github.png';
 import ImgGit from '../../../assets/git.png';
-import ImgReact from '../../../assets/react.png'
+import ImgReact from '../../../assets/react.png';
 
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
 
 function Skills ( { scrollRef }) {

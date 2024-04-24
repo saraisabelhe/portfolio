@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-import styles from './styles.module.css'
-import Img from '../../../assets/logo.png'
+import styles from './styles.module.css';
+import Img from '../../../assets/logo.png';
 
 
 

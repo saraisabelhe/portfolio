@@ -1,4 +1,4 @@
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 import {  FaLinkedin, FaGithub, FaInstagram} from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 
