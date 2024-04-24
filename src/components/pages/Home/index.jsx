@@ -10,7 +10,7 @@ function Home() {
     
     const componenteAboutRef = useRef(null);
     const componenteSkillRef = useRef(null);
-    const componenteHomeRef = useRef(null);
+    
 
 
     const scrollAbout = () => {
