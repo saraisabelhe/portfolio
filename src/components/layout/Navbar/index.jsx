@@ -8,7 +8,7 @@ import Img from '../../../assets/logo5.png'
 
 
 
-function Navbar( {scrollComponenteAbout, scrollComponenteSkill} ) {
+function Navbar( {scrollComponenteAbout, scrollComponenteSkill, scrollComponenteHome} ) {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -32,7 +32,7 @@ function Navbar( {scrollComponenteAbout, scrollComponenteSkill} ) {
                     {isOpen && (
                         <nav >
                             <ul>
-                                <li><Link to="/">Home</Link></li>
+                                <li><Link onClick={() => {scrollComponenteHome(); closeMenu()}}>Home</Link></li>
                                 <li><Link onClick={() => {scrollComponenteSkill(); closeMenu()}}>Skill</Link></li>
                                 <li><Link onClick={() => {scrollComponenteAbout(); closeMenu()}}>About</Link></li>
                             </ul>
@@ -42,7 +42,7 @@ function Navbar( {scrollComponenteAbout, scrollComponenteSkill} ) {
                 <div className={styles.menu_principal}>
                     <nav>
                         <ul>
-                            <li><Link to="/">Home</Link></li>
+                            <li><Link onClick={scrollComponenteHome}>Home</Link></li>
                             <li><Link onClick={scrollComponenteSkill}>Skill</Link></li>
                             <li><Link onClick={scrollComponenteAbout}>About</Link></li>
                         </ul>

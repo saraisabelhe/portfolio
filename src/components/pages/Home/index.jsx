@@ -10,6 +10,8 @@ function Home() {
     
     const componenteAboutRef = useRef(null);
     const componenteSkillRef = useRef(null);
+    const componenteHomeRef = useRef(null);
+
 
     const scrollAbout = () => {
 
@@ -19,12 +21,17 @@ function Home() {
         
         componenteSkillRef.current.scrollIntoView({ behavior: 'smooth' });
     };
+    const scrollHome = () => {
+        window.scrollTo({   top: 0, behavior: 'smooth' });
+    };
     return (
         <div>
 
             <Navbar 
+                
                 scrollComponenteAbout={ scrollAbout } 
                 scrollComponenteSkill={ scrollSkill }
+                scrollComponenteHome={ scrollHome }
             />
             <Banner/>
             <Skills scrollRef={componenteSkillRef}/>
