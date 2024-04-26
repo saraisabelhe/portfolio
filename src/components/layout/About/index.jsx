@@ -6,7 +6,7 @@ function About( { scrollRef }) {
     return ( 
     <div ref={scrollRef} className={styles.conteiner}>
         <div className={styles.conteiner_texto}>
-            <h1>Introdução Sobre Mim</h1>
+            <h1><span>Introdução Sobre Mim</span></h1>
             <p>Olá! Sou Vitor França, um entusiasta da tecnologia 
                 <br/><br/>
                 desenvolvedor com experiência em <span>FrontEnd.</span> Fluente em <span>javascript</span> 
