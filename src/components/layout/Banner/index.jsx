@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import Img from '../../../assets/banner.png';
+import Img from '../../../assets/banner1.webp';
 
 
 function Banner() {
