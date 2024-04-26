@@ -10,12 +10,12 @@ function Skills ( { scrollRef }) {
                 <h1 className={styles.conteiner_skill}>SKILLS</h1>
             </div>
             <div className={styles.conteiner_icons}>
-                <div className={styles.conteiner_item}><FaHtml5 className={styles.icon} size={80}/><h3>HTML</h3></div>
-                <div className={styles.conteiner_item}><FaCss3Alt className={styles.icon} size={80}/><h3>CSS</h3></div>
-                <div className={styles.conteiner_item}><FaJsSquare className={styles.icon} size={80}/><h3>JS</h3></div>
-                <div className={styles.conteiner_item}><FaGithubSquare className={styles.icon} size={80}/><h3>GitHub</h3></div>
-                <div className={styles.conteiner_item}><FaGitSquare className={styles.icon} size={80}/><h3>Git</h3></div>
-                <div className={styles.conteiner_item}><FaReact className={styles.icon} size={80}/><h3>React</h3></div>
+                <div className={styles.conteiner_item}><FaHtml5 className={styles.icon} size={80}/><h2>HTML</h2></div>
+                <div className={styles.conteiner_item}><FaCss3Alt className={styles.icon} size={80}/><h2>CSS</h2></div>
+                <div className={styles.conteiner_item}><FaJsSquare className={styles.icon} size={80}/><h2>JS</h2></div>
+                <div className={styles.conteiner_item}><FaGithubSquare className={styles.icon} size={80}/><h2>GitHub</h2></div>
+                <div className={styles.conteiner_item}><FaGitSquare className={styles.icon} size={80}/><h2>Git</h2></div>
+                <div className={styles.conteiner_item}><FaReact className={styles.icon} size={80}/><h2>React</h2></div>
             </div>
         </div>
     )
