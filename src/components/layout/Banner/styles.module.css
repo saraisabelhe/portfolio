@@ -11,19 +11,25 @@
 } 
 .conteiner_banner picture {
     
-    width: 400px;
-    height: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
     
 
 }
 .conteiner_banner img {
      width: 100%;
      height: 100%;
+     max-width: 25rem;
+
      
 }
 .conteiner_titulo {
-    padding: 0 0 4rem;
+    flex: 0 0 calc(50% - 10px);
+    padding: 0 20px 4rem 20px;
     text-align: left;
+    
+    
     
     
     
@@ -33,20 +39,21 @@
     
     white-space: nowrap;
     margin: 0;
-    font-size: 2.4em !important;
+    font-size: 2.4em ;
     
    
 }
 .conteiner_banner h3 {
     
     margin: 0;
+    
 }
 .contato {
     margin-top: 10px;
     padding: 10px 40px;
     border: 4px outset rgb(108, 224, 108);;
     border-radius: 25px;
-    transition: background-color 0.3s ease;
+    
     transition: transform 0.3s ease;
     transition: box-shadow 0.3s ease;
     cursor: pointer;
@@ -55,6 +62,7 @@
     
 }
 .contato:hover {
+    transition: background-color 0.7s ease;
     background-color: #394F36;
     color: white;
     transform: translateY(2px);
@@ -66,3 +74,37 @@
     color: inherit;
 }
 
+/* media querys */
+
+@media screen and (max-width: 860px) { 
+    .conteiner_titulo h1{
+        font-size: 2.0em ;
+        
+      
+    }
+    .conteiner_titulo h3 {
+        font-size: 1em ;
+       
+    }
+    .conteiner_banner picture img {
+    
+        width: 20rem;
+        
+        
+        
+    
+    }
+    
+  }
+  @media screen and (max-width: 480px) {
+    .conteiner_banner picture img {
+    
+        width: 18rem;
+        
+        
+        
+    
+    }
+    
+
+  }
