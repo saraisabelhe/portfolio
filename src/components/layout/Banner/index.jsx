@@ -8,7 +8,7 @@ function Banner() {
         <div className={styles.conteiner_banner}>
             <div className={styles.conteiner_titulo}>
                 <h1>Ola, Bem-vindo.</h1>
-                <h3>Sou Vitor França, <span>Frontend.</span></h3>
+                <h2>Sou Vitor França, <span>Frontend.</span></h2>
                 <a href="mailto:vitusfranca@gmail.com">
                     <button className={styles.contato}>Contato</button>
                 </a>
