@@ -26,7 +26,7 @@ function Navbar( {scrollComponenteAbout, scrollComponenteSkill, scrollComponente
                     <img src={Img} alt="" />
                 </div>
                 <div className={styles.hamburguer_menu}>
-                    <button className={styles.hamburguer_icon} onClick={toggleMenu}>
+                    <button className={styles.hamburguer_icon} onClick={toggleMenu} aria-label='Abrir Menu'>
                         <AiOutlineMenu size={25}/>
                     </button>
                     {isOpen && (
