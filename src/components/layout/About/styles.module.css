@@ -37,3 +37,7 @@
     height: 100%;
     margin: 0;
 }
+.conteiner_texto span {
+    color: #49008A;
+    font-weight: bold;
+}
