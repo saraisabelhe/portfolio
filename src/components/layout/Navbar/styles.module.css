@@ -20,6 +20,8 @@
     max-width: 100%;
     max-height: 100%;
     display: flex;
+    width: 70px;
+    height: 70px;
 }
 .conteiner_logo {
     flex-grow: 1;
