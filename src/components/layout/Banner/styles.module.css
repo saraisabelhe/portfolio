@@ -4,21 +4,20 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-size: cover;
-    padding: 10rem 0 8rem;
+    padding: 10rem 0px 8rem 20px;
     
     
     
 
 } 
-.conteiner_banner picture {
+.conteiner_img {
     
-    padding-left: 20px;
-    padding-right: 20px;
+   
     
     
 
 }
-.conteiner_banner img {
+.conteiner_img img {
      width: 100%;
      height: 100%;
      max-width: 25rem;
@@ -26,8 +25,8 @@
      
 }
 .conteiner_titulo {
-    flex: 0 0 calc(50% - 10px);
-    padding: 0 20px 4rem 20px;
+
+    padding: 0 0 4rem 0;
     text-align: left;
     
     
@@ -88,7 +87,7 @@
         font-size: 1em ;
        
     }
-    .conteiner_banner picture img {
+    .conteiner_img img {
     
         width: 20rem;
         
@@ -99,9 +98,9 @@
     
   }
   @media screen and (max-width: 480px) {
-    .conteiner_banner picture img {
+    .conteiner_img img {
     
-        width: 18rem;
+        width: 16rem;
         
         
     }
