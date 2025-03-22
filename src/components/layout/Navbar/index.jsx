@@ -43,7 +43,7 @@ function Navbar( {scrollComponenteAbout, scrollComponenteSkill, scrollComponente
                     <nav>
                         <ul>
                             <li><Link onClick={scrollComponenteHome}>Home</Link></li>
-                            <li><Link onClick={scrollComponenteSkill}>Skill</Link></li>
+                            <li><Link onClick={scrollComponenteSkill}>Professional Action</Link></li>
                             <li><Link onClick={scrollComponenteAbout}>About</Link></li>
                         </ul>
                     </nav>

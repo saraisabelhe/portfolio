@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 
 import Banner from '../../layout/Banner';
-import Skills from '../../layout/Skills';
+import Skills from '../../layout/Atuacao';
 import Navbar from '../../layout/Navbar';
 import About from '../../layout/About';
 import Footer from '../../layout/Footer';
@@ -37,10 +37,9 @@ function Home() {
             <Skills scrollRef={componenteSkillRef}/>
             <About scrollRef={componenteAboutRef}/>
             <Footer 
-                email='mailto:vitusfranca@gmail.com'
-                insta='https://www.instagram.com/vitor_sfr/'
-                github='https://github.com/VitusFranca'
-                linkedin='https://www.linkedin.com/in/vitor-fran%C3%A7a-b90b23305/'
+                email='mailto:saraisabelff@gmail.com'
+                insta='https://www.instagram.com/sara_.bel/'
+                linkedin='https://br.linkedin.com/in/sara-isabel-246270245'
             />
         </div>
     )

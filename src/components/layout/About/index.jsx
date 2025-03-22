@@ -1,22 +1,21 @@
 import styles from './styles.module.css';
-import img from '../../../assets/imgsobre.webp';
+import img from '../../../assets/imgsobre.png';
 
 
 function About( { scrollRef }) {
     return ( 
     <div ref={scrollRef} className={styles.conteiner}>
-        <div className={styles.conteiner_texto}>
             <h1><span>Introdução Sobre Mim</span></h1>
-            <p>Olá! Sou Vitor França, um entusiasta da tecnologia 
+            <p>Sou estudante de <span>Psicologia</span> com um profundo interesse no comportamento humano e no funcionamento da mente. 
                 <br/><br/>
-                desenvolvedor com experiência em <span>FrontEnd.</span> Fluente em <span>javascript</span> 
-                <br/><br/>
-                Valorizo a colaboração, busco aprendizado contínuo e estou comprometido em causar impacto positivo. 
+                Estou sempre em busca de novos <span>conhecimentos</span> e <span>experiências</span> que me permitam expandir minha compreensão da área e sua aplicação prática
+                contribuindo para o bem-estar e desenvolvimento pessoal de indivíduos e comunidades. 
                 <br/><br/> 
-                Aberto para colaborações e discussões sobre tecnologia.
+                Tenho experiência acadêmica em <span>estágios escolares</span> e <span>avaliação psicológica</span>
+                <br></br>
+                além de participar ativamente de ligas acadêmicas de Ciências Forenses e Psiquiatria. Demonstro interesse significativo nas áreas social, hospitalar, jurídica e criminal.
             </p>
-        </div>
-        <div className={styles.conteiner_img}><img src={img} alt="" /></div>
+            <div className={styles.conteiner_img}><img src={img} alt="" /></div>
     </div>
 )
 }

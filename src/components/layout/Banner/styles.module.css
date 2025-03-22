@@ -53,7 +53,7 @@
 .contato {
     margin-top: 10px;
     padding: 10px 40px;
-    border: 4px outset rgb(108, 224, 108);;
+    border: 4px outset #E20F31;
     border-radius: 25px;
     
     transition: transform 0.3s ease;
@@ -65,7 +65,7 @@
 }
 .contato:hover {
     transition: background-color 0.7s ease;
-    background-color: #394F36;
+    background-color: #d10a2c;
     color: white;
     transform: translateY(2px);
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
@@ -92,8 +92,6 @@
     
         width: 20rem;
         
-        
-        
     
     }
     
@@ -108,3 +106,42 @@
     
 
   }
+  @media screen and (max-width: 360px) {
+      .conteiner_banner picture img {
+          display: none;
+          
+      }
+      .conteiner_titulo {
+        flex: 0 0 calc(50% - 10px);
+        padding: 2rem 20px 2rem 20px;
+        text-align: left;
+
+      }
+
+  }
+  @media screen and (min-height: 1500px ) {
+    .conteiner_banner h2 {
+        font-size: 2vw;
+    }
+    .conteiner_banner h1 {
+        font-size: 4vw;
+    }
+    .contato {
+
+        border: 0.5vw outset #E20F31;
+        border-radius: 4vw;
+        font-size: 2vw; 
+    }
+    .conteiner_banner picture img {
+    
+        width: 50vw;
+        
+    }
+    .conteiner_banner img {
+        width: 100%;
+        height: 100%;
+        max-width: 40vw;
+        
+   }
+    
+}
